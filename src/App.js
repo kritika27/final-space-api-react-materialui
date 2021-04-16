@@ -62,7 +62,7 @@ export default function App() {
                 <CardMedia className={classes.media} image={char.img_url} />
                 <CardContent>
                   <Typography color="primary" variant="h5">
-                    {char.name}
+                    {char.name || "Monster"}
                   </Typography>
                 </CardContent>
               </Card>
